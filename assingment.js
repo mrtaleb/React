@@ -1,15 +1,13 @@
 function app() {
-  // return React.createElement("div" ,{class:"main"},)
   return React.createElement(ul);
 }
 
-// const main=document.getElementById("root");
-//ReactDOM.createRoot("root").render(React.createElement(app))
+
 
 function ul() {
   return React.createElement(
     "table",
-    { class: "main",border:"1px",padding:"20px" },
+    { class: "main",border:"1px"},
     React.createElement(
       "tr",
       {},
